@@ -12,9 +12,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'babel-loader'
             },
-            // Rules to load scss
             {
-                // Some change here
                 test: /\.scss$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
             }

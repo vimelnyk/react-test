@@ -1,5 +1,20 @@
-$brand-color: blue;
-
 * {
-    color: $brand-color;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    font-size: 1.5em;
+}
+body{
+    font-family: Verdana;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    color:white;
+    height:8rem;
 }
